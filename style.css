@@ -1,0 +1,268 @@
+body{
+    font: 15px/1.5 Arial, helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    Background-color:lightGray;
+}
+/*Global*/
+.container{
+    width: 80%;
+    margin:auto;
+    overflow:hidden ;
+}
+.lightning a{
+    color: blanchedalmond;
+text-decoration: none;
+text-transform: uppercase;
+}
+.lightning a:hover{
+    color: coral;
+    font-weight: bold;
+}
+.button_1{
+    height:35px;
+    background-color:coral;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+}
+.button_1:hover{
+    color: wheat;
+    font-weight: bold;
+}
+.dark:hover{
+    background: black;
+    color: whitesmoke;
+}
+/*Header*/
+header{
+    background-color:#35424a;
+    color:white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: tomato 3px solid;
+}
+/* For Links*/
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding:0 20px 0 20px;    
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+ header nav{
+     float: right;
+     margin-top: 12px;
+ }
+ 
+header .highlight, header .goa a{
+color: coral;
+font-weight: bold;
+}
+ header a:hover{
+     color: cornsilk;
+     font-weight: bold;
+ }
+
+ /* Showcase*/
+ #showcase{
+     min-height: 400px;
+     background:url(../img/f.jpg) no-repeat  ;
+     text-align: center;
+     color:rgb(199, 189, 151);
+     border-bottom: violet 3px solid;
+    }
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 50px;
+    margin: bottom 10px;
+    color:seashell;
+    font-family: 'Times New Roman', Times, serif;
+}   
+#showcase h1:hover{
+    color: tomato;
+    font-weight: bolder;
+}
+ #newsletter{
+     padding: 15px;
+     color: white;
+     background-color: #35424a;
+     border-bottom: rosybrown 3px solid;
+ }
+ #newsletter h1{
+     float:left ;
+ }
+ #newsletter form{
+     float:right;
+     margin-right: 30px;
+     margin-top: 20px;   
+ }
+ #newsletter input{         
+    height: 35px;
+    width: 300px;
+    background-color:cornsilk;
+    border:0;
+ }
+ #newsletter input:hover{
+     font-weight: bolder;
+ }
+ section .change {
+     color:orangered;
+     font-weight:bolder ;
+ }
+section .dd{
+    color:coral;
+    font-weight: bold;
+}
+
+
+ #boxes{
+     background-color:darkslategrey;
+     color: cornsilk;
+ }
+ 
+ #boxes .box{
+     float :left;
+     text-align: center;
+     width:30%;
+     padding: 10px;
+ }
+ #boxes .box img{
+     width : 200px;
+     height:200px;
+ }
+ section .dd:hover{
+    font-weight: bold;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+article#main_col{
+    float:left;
+    width: 60%;
+
+}
+article#main_col h1:hover{
+    color:rgb(199, 61, 61) ;
+    font-weight: bolder;
+
+}
+aside#side_bar{
+    float:right;
+    width: 30%;
+    padding: 10px;
+    margin-top: 45px;
+    background:black;
+    color:white;
+}
+aside#side_bar2{
+    float:right;
+    width: 30%;
+    padding: 10px;
+    margin-top: 100px;
+    background:black;
+    color:white;
+}
+
+aside#side_bar h1:hover{
+    color: chocolate;
+    font-weight: bolder;
+}
+
+ul#Services li{
+    list-style: none;
+    background:darkslategrey;
+    color:white;
+    padding: 10px;
+    border: white 1px solid;
+    margin-bottom:5px;
+}
+article#main_col h1{
+    font-size: 30px;
+    color:black;
+    text-align: center;
+}
+article#main_col h3:hover{
+    color:coral;
+    font-weight: bolder;}
+aside#side_bar .farm input ,aside#side_bar  .farm textarea{
+    width:90%;
+    padding:5px;
+}
+aside input:hover{
+font-weight: bolder;
+}
+aside textarea:hover{
+    font-weight: bolder;
+    }
+aside#side_bar label:hover{
+color:burlywood;
+font-weight: bolder;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: dimgray;
+    color: ghostwhite;
+}
+footer p:hover{
+  color:yellow;
+  font-weight: bold;
+}
+
+/*media services*/
+@media(max-width:768px){
+    header #branding, header nav, header nav li, #boxes .box,#newsletter h1 , #newsletter form,article#main_col
+    ,aside#side_bar
+    {
+     float:none;
+     text-align: center;
+     width:100%;
+    }
+    header{
+       padding-bottom: 10px; 
+    }
+    aside#side_bar{
+        margin-bottom: 10px;
+    }
+  
+#showcase h1{
+    margin-top: 70px;
+}
+#showcase img{
+image: resolution 10px;}
+
+#newsletter .button_1{
+    float:none;
+    width: 100%;
+    padding: 5px;
+}
+.farm .button_1{
+    float:none;
+    width: 93%;
+    padding: 5px;
+}
+#newsletter input[type="email"]{
+    float:none;
+    width:100%;
+    margin-bottom: 5px;
+    margin-top: -30 px;
+   
+
+}}
